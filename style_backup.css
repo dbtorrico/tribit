@@ -1,0 +1,1275 @@
+*{
+  border:0;
+  list-style:none;
+  margin:0;
+  outline:none;
+  padding:0;
+  text-decoration:none;
+}
+body {
+  -webkit-font-smoothing:antialiased;
+  color:#333333;
+  font-family:'Helvetica Neue', helvetica, arial, sans-serif;
+  font-size:14px;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:400;
+  line-height:normal;
+}
+strong {
+  font-weight:700;
+}
+#port li .txt {
+  -webkit-transition:all 0.3s ease-in-out;
+}
+#header-blocks li a, #port li .txt a, #contato .blocos .l input, #contato .blocos .l textarea, #contato .blocos .r p a, #contato .blocos .r ul li.f a, #header-blocks li.cont ul li.f a, #contato .blocos .r ul li.tt a, #header-blocks li.cont ul li.tt a, #fancybox-content input, #fancybox-content textarea {
+  -webkit-transition:all 0.2s ease-in-out;
+}
+#menu * {
+  -webkit-transition:all 0.15s ease-in-out;
+}
+.s2 .f1, .s2 .f2, .s3 .f1, .s3 .f2, h1 {
+  font-size:0;
+  overflow:hidden;
+  text-indent:-6000px;
+}
+.page {
+  margin:0 auto;
+  padding-right:30px;
+  width:950px;
+}
+#header {
+  height:1500px;
+}
+#quem-somos {
+  background-image:-webkit-linear-gradient(top, #FFFFFF 0%, #D1D4D4 50%, #FFFFFF 100%);
+  background-position:initial initial;
+  background-repeat:initial initial;
+  height:1700px;
+  position:relative;
+}
+#portfolio {
+  height:1700px;
+}
+#servicos {
+  height:1100px;
+}
+#contato {
+  height:800px;
+}
+#footer {
+  color:#707885;
+  font-size:12px;
+  height:100px;
+  text-align:center;
+}
+section .page > h2 {
+  color:#222222;
+  display:block;
+  font-family:'Varela Round', 'Helvetica Neue', helvetica, arial, sans-serif;
+  font-size:100px;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:400;
+  line-height:normal;
+  margin-bottom:50px;
+  text-transform:uppercase;
+}
+h1 {
+  background-image:url(http://www.joeblack.com.br/img/bg.png);
+  background-position:-39px 0;
+  background-repeat:no-repeat no-repeat;
+  height:38px;
+  left:50%;
+  margin-left:433px;
+  position:absolute;
+  top:40px;
+  width:51px;
+  z-index:9999;
+}
+#header-blocks {
+  display:table;
+  margin:0 auto;
+  width:980px;
+}
+#header-blocks > li {
+  background-color:#F3F5F5;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  color:#394356;
+  float:left;
+  font-size:17px;
+  height:290px;
+  margin-left:10px;
+  padding:20px;
+  position:relative;
+  width:270px;
+}
+#header-blocks > li h2 {
+  color:#B7BDC7;
+  display:block;
+  font-family:'Varela Round', 'Helvetica Neue', helvetica, arial, sans-serif;
+  font-size:30px;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:400;
+  line-height:20px;
+  padding-bottom:20px;
+}
+#header-blocks li.rumor {
+  font-size:14px;
+  margin:0;
+}
+#header-blocks li.rumor p {
+  font-family:Georgia, serif;
+  font-size:24px;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:300;
+  line-height:1.2em;
+}
+#header-blocks li.rumor p a, #header-blocks li.rumor p mark {
+  background-image:none;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  color:#0072BC;
+}
+#header-blocks li.rumor p a {
+  position:relative;
+}
+#header-blocks li.rumor p a:hover {
+  color:#969CA5;
+}
+#header-blocks li.rumor .author {
+  bottom:20px;
+  left:20px;
+  position:absolute;
+}
+#header-blocks li.rumor .author a {
+  background-image:url(http://www.joeblack.com.br/img/link.png);
+  background-position:50% 30px;
+  background-repeat:no-repeat no-repeat;
+  color:#394356;
+  padding-right:10px;
+}
+#header-blocks li.rumor .author a:hover {
+  background-position:100% 3px;
+}
+#header-blocks li.rumor .author a.tt {
+  font-size:18px;
+  font-weight:700;
+}
+#header-blocks li.job {
+  background-color:#F3F5F5;
+  background-image:url(http://www.joeblack.com.br/img/bg-last.jpg);
+  background-position:0 140px;
+  background-repeat:no-repeat no-repeat;
+}
+#header-blocks li.job p {
+  font-size:15px;
+  padding-bottom:20px;
+}
+#header-blocks li.job a {
+  background-image:url(http://www.joeblack.com.br/img/link.png);
+  background-position:50% 100px;
+  background-repeat:no-repeat no-repeat;
+  bottom:20px;
+  color:#969CA5;
+  font-size:16px;
+  left:20px;
+  padding-right:10px;
+  position:absolute;
+}
+#header-blocks li.job a:hover {
+  background-position:100% 3px;
+}
+#header-blocks li.job a strong {
+  color:#394356;
+  font-size:18px;
+}
+#header-blocks li.job a mark {
+  background-image:none;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  color:#394356;
+}
+#header-blocks li.cont ul li {
+  font-size:16px;
+  line-height:20px;
+  margin-bottom:15px;
+}
+#header-blocks li.cont ul li::before {
+  background-image:url(http://www.joeblack.com.br/img/bg.png);
+  background-position:0 0;
+  background-repeat:no-repeat no-repeat;
+  content:'';
+  display:inline-block;
+  height:20px;
+  position:relative;
+  top:5px;
+  width:30px;
+}
+#header-blocks li.cont ul li.s::before {
+  background-position:0 0;
+}
+#header-blocks li.cont ul li.all::before {
+  background-position:0 -40px;
+  height:77px;
+  margin-right:10px;
+  width:38px;
+}
+#header-blocks li.cont ul li.t::before {
+  background-position:0 -141px;
+}
+#header-blocks li.cont ul li.all span {
+  position:relative;
+  top:-30px;
+}
+#header-blocks li.cont ul li.f::before {
+  background-position:0 -169px;
+}
+#header-blocks li.cont ul li.f a {
+  background-image:url(http://www.joeblack.com.br/img/link.png);
+  background-position:50% 50px;
+  background-repeat:no-repeat no-repeat;
+  color:#969CA5;
+  padding-right:10px;
+}
+#header-blocks li.cont ul li.f a:hover {
+  background-position:100% 3px;
+}
+#header-blocks li.cont ul li.f a mark {
+  background-image:none;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  color:#394356;
+}
+#header-blocks li.cont ul li.tt::before {
+  background-position:0 -202px;
+}
+#header-blocks li.cont ul li.tt a {
+  background-image:url(http://www.joeblack.com.br/img/link.png);
+  background-position:50% 50px;
+  background-repeat:no-repeat no-repeat;
+  color:#969CA5;
+  padding-right:10px;
+}
+#header-blocks li.cont ul li.tt a:hover {
+  background-position:100% 3px;
+}
+#header-blocks li.cont ul li.tt a mark {
+  background-image:none;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  color:#394356;
+}
+.diapocut {
+  background-image:url(http://www.joeblack.com.br/img/loader.gif);
+  background-position:50% 50%;
+  background-repeat:no-repeat no-repeat;
+  height:800px;
+  overflow:hidden;
+  position:relative;
+  width:100%;
+}
+.diapobox {
+  border-bottom-color:#CCCCCC;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  height:750px;
+  left:50%;
+  margin:0 0 0 -1000px;
+  position:absolute;
+  top:0;
+  width:2000px;
+}
+.pix_diapo {
+  height:750px;
+  overflow:hidden;
+  position:relative;
+  width:2000px;
+}
+.pix_diapo > div {
+  display:none;
+  height:100%;
+  left:0;
+  position:absolute;
+  top:0;
+  width:100%;
+}
+#pix_prev, #pix_next {
+  cursor:pointer;
+  display:block;
+  height:40px;
+  margin-top:-20px;
+  position:absolute;
+  top:50%;
+  width:40px;
+  z-index:1001;
+}
+#pix_prev {
+  background-image:url(http://www.joeblack.com.br/css/images/diapo/prev.png);
+  background-position:initial initial;
+  background-repeat:no-repeat no-repeat;
+  left:10px;
+}
+#pix_next {
+  background-image:url(http://www.joeblack.com.br/css/images/diapo/next.png);
+  background-position:initial initial;
+  background-repeat:no-repeat no-repeat;
+  left:auto !important;
+  right:10px !important;
+}
+#pix_pag {
+  margin:0 auto;
+  position:relative;
+  width:135px;
+  z-index:1002;
+}
+#pix_commands {
+  cursor:pointer;
+  display:block;
+  float:left;
+  height:26px;
+  margin:15px 0 0 13px;
+  position:relative;
+  width:24px;
+}
+#pix_play {
+  background-image:url(http://www.joeblack.com.br/css/images/diapo/play.png);
+  background-position:50% 50%;
+  background-repeat:no-repeat no-repeat;
+  height:24px;
+  left:0;
+  position:absolute;
+  top:0;
+  width:24px;
+}
+#pix_stop {
+  background-image:url(http://www.joeblack.com.br/css/images/diapo/pause.png);
+  background-position:50% 50%;
+  background-repeat:no-repeat no-repeat;
+  height:24px;
+  left:0;
+  position:absolute;
+  top:0;
+  width:24px;
+}
+#pix_pag_ul {
+  background-color:#FFFFFF;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  border-bottom-left-radius:20px;
+  border-bottom-right-radius:20px;
+  border-top-left-radius:20px;
+  border-top-right-radius:20px;
+  display:table;
+  margin:-10px auto 0;
+  padding:5px;
+}
+#pix_pag_ul > li {
+  cursor:pointer;
+  display:block;
+  float:left;
+  list-style:none;
+  margin:0 0 0 5px;
+  text-align:center;
+  text-indent:-9999px;
+  width:16px;
+}
+#pix_pag_ul > li > span {
+  background-color:#B7BDC7;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  border-bottom-left-radius:8px;
+  border-bottom-right-radius:8px;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
+  display:block;
+  height:11px;
+  margin:0;
+  width:11px;
+}
+#pix_pag_ul > li:hover > span > span {
+  background-color:#222222;
+  background-position:initial initial;
+  background-repeat:initial initial;
+}
+#pix_pag_ul > li > span > span {
+  border-bottom-left-radius:8px;
+  border-bottom-right-radius:8px;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
+  display:block;
+  float:left;
+  height:5px;
+  margin:3px;
+  width:5px;
+}
+#pix_pag_ul > li.diapocurrent > span {
+  background-color:#222222;
+  background-position:initial initial;
+  background-repeat:initial initial;
+}
+#pix_pag_ul > li.diapocurrent > span > span {
+  background-color:#222222;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  border-bottom-left-radius:8px;
+  border-bottom-right-radius:8px;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
+}
+#pix_pag_ul > li > .pix_thumb {
+  -webkit-box-shadow:#000000 0 1px 8px;
+  border:4px solid #F2F2F2;
+  box-shadow:#000000 0 1px 8px;
+  height:58px;
+  left:-17px;
+  position:absolute;
+  top:-40px;
+  width:58px;
+}
+#pix_pag_ul > li > .thumb_arrow {
+  border-left-color:transparent;
+  border-left-style:solid;
+  border-left-width:4px;
+  border-right-color:transparent;
+  border-right-style:solid;
+  border-right-width:4px;
+  border-top-color:#E6E6E6;
+  border-top-style:solid;
+  border-top-width:4px;
+  left:12px;
+  position:absolute;
+  top:26px;
+}
+.pix_relativize {
+  overflow:hidden;
+  position:relative;
+}
+.imgFake {
+  cursor:pointer;
+}
+.elemHover {
+  position:absolute;
+}
+.caption {
+  color:#000000;
+}
+.ui-loader {
+  display:none;
+}
+.s1 .f1 {
+  color:#000000;
+  font-family:'Varela Round', 'Helvetica Neue', helvetica, arial, sans-serif;
+  font-size:100px;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:400;
+  left:50%;
+  line-height:80px;
+  margin-left:-490px;
+  text-transform:uppercase;
+  top:40px;
+  width:420px;
+}
+.s1 .f2 {
+  color:#999999;
+  font-style:italic;
+  left:50%;
+  margin-left:-190px;
+  top:130px;
+  width:130px;
+}
+.s1 .f3 {
+  color:#222222;
+  font-size:16px;
+  left:50%;
+  margin-left:-490px;
+  top:240px;
+  width:630px;
+}
+.s1 .f3 p {
+  margin-bottom:20px;
+}
+.s1 .f4 {
+  bottom:50px;
+  color:#222222;
+  font-size:16px;
+  left:50%;
+  margin-left:-490px;
+  text-align:center;
+  width:980px;
+}
+.s2 .f1 {
+  background-image:url(http://www.joeblack.com.br/img/slide-bamboo.png);
+  background-position:0 0;
+  background-repeat:no-repeat no-repeat;
+  height:128px;
+  left:50%;
+  margin-left:-490px;
+  top:80px;
+  width:526px;
+}
+.s2 .f2 {
+  background-image:url(http://www.joeblack.com.br/img/slide-bamboo.png);
+  background-position:0 -128px;
+  background-repeat:no-repeat no-repeat;
+  height:57px;
+  left:50%;
+  margin-left:-490px;
+  top:240px;
+  width:526px;
+}
+.s3 .f1 {
+  background-image:url(http://www.joeblack.com.br/img/slide-galo.png);
+  background-position:0 0;
+  background-repeat:no-repeat no-repeat;
+  height:57px;
+  left:50%;
+  margin-left:-490px;
+  top:240px;
+  width:133px;
+}
+.s3 .f2 {
+  background-image:url(http://www.joeblack.com.br/img/slide-galo.png);
+  background-position:0 -62px;
+  background-repeat:no-repeat no-repeat;
+  height:278px;
+  left:50%;
+  margin-left:-500px;
+  top:320px;
+  width:378px;
+}
+#menu {
+  background-image:url(http://www.joeblack.com.br/img/bg-line.png);
+  background-position:0 50%;
+  background-repeat:no-repeat repeat;
+  height:100%;
+  left:50%;
+  margin-left:474px;
+  position:fixed;
+  top:0;
+  width:1px;
+  z-index:9999;
+}
+#menu ul {
+  height:150px;
+  left:-8px;
+  margin-top:-70px;
+  position:absolute;
+  top:50%;
+}
+#menu ul li {
+  cursor:pointer;
+  margin-bottom:20px;
+  opacity:0.65;
+  position:relative;
+}
+#menu ul li:hover {
+  opacity:1;
+}
+#menu ul li > strong {
+  background-color:#FFFFFF;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  display:block;
+  height:20px;
+  opacity:0;
+  overflow:hidden;
+  padding:3px;
+  position:absolute;
+  right:27px;
+  top:0;
+  white-space:nowrap;
+}
+#menu ul li > strong span {
+  background-color:#000000;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  border-bottom-left-radius:3px;
+  border-bottom-right-radius:3px;
+  border-top-left-radius:3px;
+  border-top-right-radius:3px;
+  color:#FFFFFF;
+  display:block;
+  height:20px;
+  padding:0 10px;
+}
+
+#menu ul li:hover > strong {
+  opacity:1;
+}
+
+#menu ul li > span {
+  background-color:#FFFFFF;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  border-bottom-left-radius:20px;
+  border-bottom-right-radius:20px;
+  border-top-left-radius:20px;
+  border-top-right-radius:20px;
+  display:block;
+  height:10px;
+  padding:3px;
+  width:10px;
+}
+#menu ul li > span span {
+  background-color:#000000;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  border-bottom-left-radius:20px;
+  border-bottom-right-radius:20px;
+  border-top-left-radius:20px;
+  border-top-right-radius:20px;
+  display:block;
+  height:10px;
+  width:10px;
+}
+#menu ul li:hover > span {
+  margin:-5px 0 0 -5px;
+}
+#menu ul li:hover > span, #menu ul li:hover > span span {
+  height:20px;
+  width:20px;
+}
+#menu ul li.header {
+  display:none;
+}
+#quem-somos .bg {
+  background-image:url(http://www.joeblack.com.br/img/bg-art.png);
+  background-position:0 0;
+  background-repeat:no-repeat no-repeat;
+  display:block;
+  height:579px;
+  left:50%;
+  margin-left:-560px;
+  position:absolute;
+  top:0;
+  width:658px;
+  z-index:5;
+}
+#quem-somos .page {
+  position:relative;
+  z-index:10;
+}
+#quem-somos p {
+  color:#222222;
+  font-size:18px;
+  margin-bottom:20px;
+  max-width:620px;
+}
+#quem-somos .blocos {
+  display:table;
+  margin-top:270px;
+  width:100%;
+}
+#quem-somos .blocos p {
+  margin-bottom:40px;
+}
+#quem-somos .blocos div.l {
+  float:left;
+  position:relative;
+  width:290px;
+}
+#quem-somos .blocos div.l i {
+  background-image:url(http://www.joeblack.com.br/img/bg.png);
+  background-position:0 -234px;
+  background-repeat:no-repeat no-repeat;
+  display:block;
+  height:90px;
+  left:30px;
+  position:absolute;
+  top:-100px;
+  width:72px;
+}
+#quem-somos .blocos div.l p.p {
+  padding-top:30px;
+}
+#quem-somos .blocos div.r {
+  float:left;
+  margin-left:30px;
+  position:relative;
+  width:620px;
+}
+#quem-somos .blocos div.r i {
+  background-image:url(http://www.joeblack.com.br/img/bg.png);
+  background-position:-73px -234px;
+  background-repeat:no-repeat no-repeat;
+  display:none;
+  height:104px;
+  left:185px;
+  position:absolute;
+  top:68px;
+  width:136px;
+}
+ul.joes {
+  left:-320px;
+  position:absolute;
+  top:180px;
+  width:940px;
+}
+ul.joes li {
+  float:left;
+  height:190px;
+  margin:0 0 30px 5px;
+  text-align:left;
+  width:310px;
+}
+ul.joes li.l {
+  clear:left;
+  margin-left:0;
+}
+ul.joes li .img {
+  background-image:url(http://www.joeblack.com.br/img/bg.png);
+  background-position:0 0;
+  background-repeat:no-repeat no-repeat;
+  display:block;
+  float:left;
+  height:190px;
+  width:120px;
+}
+ul.joes li .txt {
+  display:block;
+  float:left;
+  height:190px;
+  margin-left:10px;
+  width:175px;
+}
+ul.joes li.xnd .img {
+  background-position:-39px -43px;
+}
+ul.joes li.iur .img {
+  background-position:-161px -43px;
+}
+ul.joes li.jad .img {
+  background-position:-283px -43px;
+}
+ul.joes li.leo .img {
+  background-position:-405px -43px;
+}
+ul.joes li.ren .img {
+  background-position:-527px -43px;
+}
+ul.joes li.thi .img {
+  background-position:-649px -43px;
+}
+ul.joes li .txt strong {
+  color:#000000;
+  display:block;
+  font-size:20px;
+  font-weight:400;
+}
+ul.joes li .txt mark {
+  background-image:none;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  color:#666666;
+  display:block;
+  margin-bottom:20px;
+}
+#quem-somos ul.joes li .txt p {
+  font-size:14px;
+}
+#port {
+  display:table;
+  width:950px;
+}
+#port li {
+  float:left;
+  height:200px;
+  margin-bottom:10px;
+  overflow:hidden;
+  position:relative;
+  width:315px;
+}
+#port li .img {
+  background-image:url(http://www.joeblack.com.br/img/bg-port.jpg);
+  background-position:0 0;
+  background-repeat:no-repeat no-repeat;
+  display:block;
+  height:200px;
+}
+#port li.f {
+  clear:left;
+}
+#port li .txt {
+  background-color:#F3F5F5;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  color:#394356;
+  display:block;
+  height:160px;
+  left:0;
+  padding:20px;
+  position:absolute;
+  text-align:center;
+  top:-300px;
+  width:275px;
+}
+#port li .txt h3 {
+  display:block;
+  font-size:18px;
+  font-weight:700;
+}
+#port li .txt mark {
+  background-image:none;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  color:#394356;
+  display:block;
+  font-size:15px;
+  padding-bottom:10px;
+}
+#port li .txt a {
+  background-image:url(http://www.joeblack.com.br/img/link.png);
+  background-position:50% 50px;
+  background-repeat:no-repeat no-repeat;
+  color:#969CA5;
+  padding-right:10px;
+}
+#port li .txt a strong {
+  color:#394356;
+}
+#port li .txt a:hover {
+  background-position:100% 3px;
+}
+#port li:hover .txt {
+  top:0;
+}
+#port li .extra {
+  display:none;
+}
+#port li.p1 .img {
+  background-position:0 0;
+}
+#port li.p2 .img {
+  background-position:-316px 0;
+}
+#port li.p3 .img {
+  background-position:-632px 0;
+}
+#port li.p4 .img {
+  background-position:0 -201px;
+}
+#port li.p5 .img {
+  background-position:-316px -201px;
+}
+#port li.p6 .img {
+  background-position:-632px -201px;
+}
+#port li.p7 .img {
+  background-position:0 -402px;
+}
+#port li.p8 .img {
+  background-position:-316px -402px;
+}
+#port li.p9 .img {
+  background-position:-632px -402px;
+}
+#port li.p10 .img {
+  background-position:0 -603px;
+}
+#port li.p11 .img {
+  background-position:-316px -603px;
+}
+#port li.p12 .img {
+  background-position:-632px -603px;
+}
+#port li.p13 .img {
+  background-position:0 -804px;
+}
+#port li.p14 .img {
+  background-position:-316px -804px;
+}
+#port li.p15 .img {
+  background-position:-632px -804px;
+}
+#port li.p16 .img {
+  background-position:0 -1005px;
+}
+#port li.p17 .img {
+  background-position:-316px -1005px;
+}
+#port li.p18 .img {
+  background-position:-632px -1005px;
+}
+#servicos .page {
+  background-image:url(http://www.joeblack.com.br/img/bg-serv.jpg);
+  background-position:50px 100%;
+  background-repeat:no-repeat no-repeat;
+  font-size:16px;
+  padding-bottom:400px;
+}
+#servicos .blocos {
+  display:table;
+  width:100%;
+}
+#servicos .blocos .l {
+  float:left;
+  width:620px;
+}
+#servicos .blocos .r {
+  float:left;
+  margin-left:20px;
+  width:300px;
+}
+#servicos p {
+  margin-bottom:20px;
+}
+#servicos p a {
+  color:#000000;
+  font-weight:bold;
+}
+#servicos ul {
+  margin-left:20px;
+}
+#servicos ul li {
+  list-style-image:initial;
+  list-style-position:outside;
+  list-style-type:disc;
+  margin-bottom:10px;
+}
+#contato .blocos {
+  color:#394356;
+  display:table;
+  font-size:16px;
+  width:100%;
+}
+#contato .blocos .l {
+  background-image:url(http://www.joeblack.com.br/img/bg-cont.png);
+  background-position:initial initial;
+  background-repeat:initial initial;
+  float:left;
+  padding:10px;
+  position:relative;
+  width:610px;
+}
+#contato .blocos .l input, #contato .blocos .l textarea {
+  background-color:#FFFFFF;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  color:#ADB3B7;
+  display:block;
+  font-family:'Helvetica Neue', helvetica, arial, sans-serif;
+  font-size:15px;
+  font-style:italic;
+  font-variant:normal;
+  font-weight:300;
+  height:20px;
+  line-height:normal;
+  margin-top:25px;
+  padding:10px;
+  width:410px;
+}
+#contato .blocos .l input[type="submit"] {
+  background-color:#FFFFFF;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  cursor:pointer;
+  height:40px;
+  margin:5px 0 0 270px;
+  padding:10px;
+  right:10px;
+  width:200px;
+}
+#contato .blocos .l input[type="submit"]:hover {
+  background-color:#ADB3B7;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  color:#FFFFFF;
+}
+#contato .blocos .l input:focus, #contato .blocos .l textarea:focus {
+  background-color:#E0E3E5;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  color:#394356;
+}
+#contato .blocos .l textarea {
+  height:120px;
+}
+#contato .blocos .l form {
+  position:relative;
+}
+#contato .blocos .l form span {
+  background-color:#707885;
+  background-image:url(http://www.joeblack.com.br/img/bg.png);
+  background-position:0 0;
+  background-repeat:no-repeat no-repeat;
+  display:block;
+  height:40px;
+  padding-left:40px;
+  width:410px;
+}
+#contato .blocos .l form span.i1 {
+  background-position:-524px -242px;
+}
+#contato .blocos .l form span.i2 {
+  background-position:-592px -242px;
+}
+#contato .blocos .l form span.i3 {
+  background-position:-652px -243px;
+}
+#contato .blocos .l form span.i4 {
+  background-position:-715px -242px;
+  height:140px;
+}
+#contato .blocos .l form .bt {
+  background-color:#707885;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  bottom:0;
+  color:#FFFFFF;
+  font-style:normal;
+  font-weight:700;
+  position:absolute;
+  right:5px;
+  width:100px;
+}
+#contato .blocos .l > div {
+  background-color:#F3F5F5;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  height:440px;
+  padding:10px;
+}
+#contato .blocos .r {
+  background-color:#F3F5F5;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  float:left;
+  height:440px;
+  margin-left:10px;
+  padding:20px;
+  position:relative;
+  width:270px;
+}
+#contato .blocos .r ul li {
+  font-size:16px;
+  line-height:20px;
+  margin-bottom:10px;
+}
+#contato .blocos .r ul li::before {
+  background-image:url(http://www.joeblack.com.br/img/bg.png);
+  background-position:0 0;
+  background-repeat:no-repeat no-repeat;
+  content:'';
+  display:inline-block;
+  height:20px;
+  position:relative;
+  top:5px;
+  width:30px;
+}
+#contato .blocos .r ul li.s::before {
+  background-position:0 0;
+}
+#contato .blocos .r ul li.all::before {
+  background-position:0 -40px;
+  height:77px;
+  margin-right:10px;
+  width:38px;
+}
+#contato .blocos .r ul li.t::before {
+  background-position:0 -141px;
+}
+#contato .blocos .r ul li.all span {
+  position:relative;
+  top:-30px;
+}
+#contato .blocos .r ul li.f::before {
+  background-position:0 -169px;
+}
+#contato .blocos .r ul li.f a {
+  background-image:url(http://www.joeblack.com.br/img/link.png);
+  background-position:50% 50px;
+  background-repeat:no-repeat no-repeat;
+  color:#969CA5;
+  padding-right:10px;
+}
+#contato .blocos .r ul li.f a:hover {
+  background-position:100% 3px;
+}
+#contato .blocos .r ul li.f a mark {
+  background-image:none;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  color:#394356;
+}
+#contato .blocos .r ul li.tt::before {
+  background-position:0 -202px;
+}
+#contato .blocos .r ul li.tt a {
+  background-image:url(http://www.joeblack.com.br/img/link.png);
+  background-position:50% 50px;
+  background-repeat:no-repeat no-repeat;
+  color:#969CA5;
+  padding-right:10px;
+}
+#contato .blocos .r ul li.tt a:hover {
+  background-position:100% 3px;
+}
+#contato .blocos .r ul li.tt a mark {
+  background-image:none;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  color:#394356;
+}
+#contato .blocos .r p {
+  background-color:#E0E3E5;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  bottom:20px;
+  font-size:14px;
+  left:20px;
+  padding:10px;
+  position:absolute;
+  width:250px;
+}
+#contato .blocos .r p a {
+  background-image:url(http://www.joeblack.com.br/img/link-m.png);
+  background-position:50% 50px;
+  background-repeat:no-repeat no-repeat;
+  color:#394356;
+  display:block;
+  font-weight:700;
+  margin-top:20px;
+  padding-right:20px;
+  text-align:right;
+}
+#contato .blocos .r p a:hover {
+  background-position:100% 3px;
+}
+#contato .blocos .l div.error-message {
+  color:#F7941D;
+  font-size:12px;
+  padding-top:3px;
+}
+#contato .blocos .l div.success {
+  background-color:#DCEBC4;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  bottom:20px;
+  color:#51623D;
+  font-size:12px;
+  left:20px;
+  margin-top:-25px;
+  padding:7px;
+  position:absolute;
+}
+.fancybox-bg {
+  display:none;
+}
+#fancybox-outer {
+  background-image:url(http://www.joeblack.com.br/img/bg-cont.png);
+  background-position:initial initial;
+  background-repeat:initial initial;
+  padding:10px;
+}
+#fancybox-content {
+  background-color:#F3F5F5;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  border:0;
+  overflow:visible !important;
+  padding:10px;
+}
+#fancybox-content > div {
+  height:290px !important;
+  overflow:visible !important;
+}
+#fancybox-content form {
+  height:300px !important;
+  position:relative;
+}
+#fancybox-content form span {
+  display:block;
+  margin-bottom:25px;
+}
+#fancybox-content form input, #fancybox-content form textarea {
+  background-color:#FFFFFF;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  color:#ADB3B7;
+  display:block;
+  font-family:'Helvetica Neue', helvetica, arial, sans-serif;
+  font-size:15px;
+  font-style:italic;
+  font-variant:normal;
+  font-weight:300;
+  height:20px;
+  line-height:normal;
+  padding:10px;
+  width:410px;
+}
+#fancybox-content form input[type="submit"] {
+  background-color:#707885;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  bottom:10px;
+  color:#FFFFFF;
+  cursor:pointer;
+  font-style:normal;
+  font-weight:700;
+  height:auto;
+  padding:10px;
+  position:absolute;
+  right:0;
+  width:auto;
+}
+#fancybox-content form input[type="submit"]:hover {
+  background-color:#ADB3B7;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  color:#FFFFFF;
+}
+#fancybox-content form input:focus, #fancybox-content form textarea:focus {
+  background-color:#E0E3E5;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  color:#394356;
+}
+#fancybox-content form textarea {
+  height:120px;
+}
+#trampos {
+  height:300px;
+  position:relative;
+}
+#trampos h2 {
+  color:#FFFFFF;
+  font-family:'Varela Round', 'Helvetica Neue', helvetica, arial, sans-serif;
+  font-size:20px;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:400;
+  left:0;
+  line-height:20px;
+  position:absolute;
+  text-transform:uppercase;
+  top:-50px;
+}
+#fancybox-overlay {
+  background-color:#000000 !important;
+  background-position:initial initial !important;
+  background-repeat:initial initial !important;
+}
+.success-trampo {
+  background-color:#707885;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  color:#FFFFFF;
+  font-size:13px;
+  left:50%;
+  margin:-30px 0 0 -250px;
+  padding:30px 20px;
+  position:fixed;
+  text-align:center;
+  text-transform:uppercase;
+  top:50%;
+  width:480px;
+}
