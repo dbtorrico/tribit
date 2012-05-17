@@ -6,29 +6,37 @@
         <script type="text/javascript" src="tribit.js"></script>
     </head> 
     <body>
-        <div id="menu">
-            <ul>
-                <li class="home">
-                    <strong><span>Home</span></strong>
-                </li>
-                <li class="servicos">
-                    <strong><span>Serviços</span></strong>
-                </li>
-                <li class="portfolio">
-                    <strong><span>Portfólio</span></strong>
-                </li>
-                <li class="quem-somos">
-                    <strong><span>Quem Somos</span></strong>
-                </li>
-                <li class="contato">
-                    <strong>
-                        <span>Contato</span>
-                    </strong>
-                </li>
-            </ul>
-        </div>
+        <center><div id="menu_header">
+            <div style="position: relative; float: right; width: 500px; margin: 15px 0 0 0">
+                <div id="menu">
+                    <ul>
+                        <li class="home">
+                            <strong><span>Home</span></strong>
+                        </li>
+                        <li class="servicos">
+                            <strong><span>Serviços</span></strong>
+                        </li>
+                        <li class="portfolio">
+                            <strong><span>Portfólio</span></strong>
+                        </li>
+                        <li class="quem-somos">
+                            <strong><span>Quem Somos</span></strong>
+                        </li>
+                        <li class="fotos">
+                            <strong><span>Fotos</span></strong>
+                        </li>
+                        <li class="mej">
+                            <strong><span>MEJ</span></strong>
+                        </li>
+                        <li class="contato">
+                            <strong><span>Contato</span></strong>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div></center>
         <section id="home">
-            <a name="home" href=""/>
+            <a name="home"/>
             <div class="page">
                 <div class="blocos">
                     <div class="homeImg">
@@ -56,9 +64,6 @@
                         <p>A Joe desenvolve soluções para a web e mobile de acordo com a necessidade dos nossos clientes. Somos uma desenvolvedora de ferramentas, sistemas online e apps mobile. Sempre atentos a desafios e novidades, gostamos de receber clientes com novas idéias, novas formas de trabalhar seus produtos ou simplesmente vontade de distribuir seu trabalho através de portais, blogs, apps, hotsites, ferramentas ou qualquer coisa que possa ser feita dentro desse vasto mundo que é a internet.</p> 
                         <p>A Joe desenvolve soluções para a web e mobile de acordo com a necessidade dos nossos clientes. Somos uma desenvolvedora de ferramentas, sistemas online e apps mobile. Sempre atentos a desafios e novidades, gostamos de receber clientes com novas idéias, novas formas de trabalhar seus produtos ou simplesmente vontade de distribuir seu trabalho através de portais, blogs, apps, hotsites, ferramentas ou qualquer coisa que possa ser feita dentro desse vasto mundo que é a internet.</p> 
                         <p>A Joe desenvolve soluções para a web e mobile de acordo com a necessidade dos nossos clientes. Somos uma desenvolvedora de ferramentas, sistemas online e apps mobile. Sempre atentos a desafios e novidades, gostamos de receber clientes com novas idéias, novas formas de trabalhar seus produtos ou simplesmente vontade de distribuir seu trabalho através de portais, blogs, apps, hotsites, ferramentas ou qualquer coisa que possa ser feita dentro desse vasto mundo que é a internet.</p> 
-                        <p>A Joe desenvolve soluções para a web e mobile de acordo com a necessidade dos nossos clientes. Somos uma desenvolvedora de ferramentas, sistemas online e apps mobile. Sempre atentos a desafios e novidades, gostamos de receber clientes com novas idéias, novas formas de trabalhar seus produtos ou simplesmente vontade de distribuir seu trabalho através de portais, blogs, apps, hotsites, ferramentas ou qualquer coisa que possa ser feita dentro desse vasto mundo que é a internet.</p> 
-                        <p>A Joe desenvolve soluções para a web e mobile de acordo com a necessidade dos nossos clientes. Somos uma desenvolvedora de ferramentas, sistemas online e apps mobile. Sempre atentos a desafios e novidades, gostamos de receber clientes com novas idéias, novas formas de trabalhar seus produtos ou simplesmente vontade de distribuir seu trabalho através de portais, blogs, apps, hotsites, ferramentas ou qualquer coisa que possa ser feita dentro desse vasto mundo que é a internet.</p> 
-                        <p>A Joe desenvolve soluções para a web e mobile de acordo com a necessidade dos nossos clientes. Somos uma desenvolvedora de ferramentas, sistemas online e apps mobile. Sempre atentos a desafios e novidades, gostamos de receber clientes com novas idéias, novas formas de trabalhar seus produtos ou simplesmente vontade de distribuir seu trabalho através de portais, blogs, apps, hotsites, ferramentas ou qualquer coisa que possa ser feita dentro desse vasto mundo que é a internet.</p>  
                     </div>
                     <div class="r">
                         <p>
@@ -97,7 +102,7 @@
             </div>
         </section>
         <section id="footer">
-            <img src="/img/joeblack.png" alt="Joe Black"/>
+            <img src="" alt="k"/>
             <p>©Tribit - 2012. Todos os direitos reservados.</p>
         </section>
     </body>
